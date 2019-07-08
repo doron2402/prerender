@@ -12,9 +12,15 @@
     "cache-manager": "0.2.0",
     "lodash": "~2.4.0",
     "phantom": "~0.5.7",
-    "phantomjs": "~1.9.7-1"
+    "phantomjs": "~1.9.7-1",
+    "snyk": "^1.192.3"
   },
   "bin": {
     "prerender": "server.js"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }

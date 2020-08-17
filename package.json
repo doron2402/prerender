@@ -10,7 +10,7 @@
   "dependencies": {
     "aws-sdk": "~1.13.0",
     "cache-manager": "0.2.0",
-    "lodash": "~2.4.0",
+    "lodash": "~4.17.20",
     "phantom": "~0.5.7",
     "phantomjs": "~1.9.7-1"
   },
